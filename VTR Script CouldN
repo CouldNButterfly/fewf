@@ -44,8 +44,3 @@ end)
 c:Button("Not Done Station",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(12194.224609375, -38.34919738769531, 1933.6829833984375)
 end)
-
-local d = w:CreateFolder("Fly/Unfly")
-d:Button("Click E To Fly/Unfly",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CouldNButterfly/fewf/main/Fly/Unfly')))()
-end)
