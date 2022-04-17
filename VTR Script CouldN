@@ -46,6 +46,6 @@ c:Button("Not Done Station",function()
 end)
 
 local d = w:CreateFolder("Fly/Unfly")
-d:Button("Click X To Fly/Unfly",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/FE%20Fly.lua')))()
+d:Button("Click E To Fly/Unfly",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CouldNButterfly/fewf/main/Fly/Unfly')))()
 end)
